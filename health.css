@@ -1,0 +1,53 @@
+body{
+
+
+	color: white;
+	background: purple;
+
+	
+}
+
+#team{
+
+border-radius: 14px;;
+padding: 5px;
+width: 150px;
+height: 130px;
+
+}
+
+h4{
+
+	font-family: cursive;
+	color: white;
+}
+
+h4:hover{
+
+	color:orange;
+}
+
+.border{
+
+	border-radius: 30%;
+	height: auto;
+	box-shadow: 2px 2px 4px 4px black;
+	width: 400px;
+}
+
+a :hover{
+
+	color: red;
+}
+
+li a :hover{
+
+	color: red;
+}
+
+
+#navigation:hover{
+
+   color: red;
+ 
+}
