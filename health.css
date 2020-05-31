@@ -1,10 +1,24 @@
 body{
 
+background-color: lightgray;
+color: black;
+font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
 
-	color: white;
-	background: purple;
 
-	
+}
+nav{
+	/* background:  #DB0247; */
+}
+footer{
+  background: #97C750;
+
+}
+#login{
+
+  width: 300px;
+
+
 }
 
 #team{
@@ -24,7 +38,7 @@ h4{
 
 h4:hover{
 
-	color:orange;
+	color:#97C750;
 }
 
 .border{
@@ -42,12 +56,12 @@ a :hover{
 
 li a :hover{
 
-	color: red;
+	color:#97C750;
 }
 
 
-#navigation:hover{
+ a:hover{
 
    color: red;
- 
+
 }
