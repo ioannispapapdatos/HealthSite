@@ -1,0 +1,219 @@
+body {
+  background: linear-gradient(to right, #fdbb2d, #22c1c3);
+
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+/* .dark-mode {
+  background-color: black;
+  color: white;
+} */
+
+i {
+  color: yellow;
+}
+
+.jumbotron {
+  background-image: url("img/logo4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 270px;
+  margin: 0;
+}
+#bioimage img:hover {
+  opacity: 0.7;
+}
+
+/* HOVER BUTTON dropdown */
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* button hover ends here... */
+
+#leftcol {
+  box-shadow: 1px 3px 3px black;
+}
+
+/* text animation */
+.text {
+  position: absolute;
+  color: white;
+  top: 40px;
+  left: 50px;
+  animation: textMove 6s infinite alternate 1s;
+}
+.text1 {
+  position: absolute;
+  color: white;
+  top: 140px;
+  right: 120px;
+  animation: textMove 6s 3 alternate 2s;
+}
+
+@keyframes textMove {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+#login {
+  width: 300px;
+}
+
+div.rotate_right {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(6deg); /* Safari */
+  transform: rotate(5deg);
+}
+
+div.rotate_left {
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
+/* slide navabar*/
+
+.sidenav {
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: left;
+  opacity: 0.7;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/*  */
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.nutriImg {
+  /* border: 4px solid white; */
+  box-shadow: 2px 3px 4px gray;
+  border-radius: 4px;
+  border: 5px solid white;
+  /* transform: rotate(1deg); */
+}
+
+/* overlay here..... */
+
+/* flip cart animation */
+
+.jumbotron {
+  position: relative;
+  padding: 120px;
+  background-image: url("http://www.wallpapers13.com/wp-content/uploads/2016/01/Beautiful-horizon-232749-1680x1050.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-direction: alternate-reverse;
+  animation: animate 20s infinite ease-in-out alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  }
+  25% {
+    background-image: url("https://images.unsplash.com/photo-1518843875459-f738682238a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1626&q=80");
+  }
+  50% {
+    background-image: url("https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  }
+  75% {
+    background-image: url("https://images.unsplash.com/photo-1568706032495-f35d5df6fb38?ixlib=rb-1.2.1&auto=format&fit=crop&w=2382&q=80");
+  }
+  100% {
+    background-image: url("https://images.unsplash.com/photo-1560717845-968823efbee1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  }
+}
+
+/* CV images effect */
+
+.styleImg {
+  border-radius: 3px;
+  border: 4px solid white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.about {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+}
+.about:hover {
+  transform: scale(1.1);
+}
